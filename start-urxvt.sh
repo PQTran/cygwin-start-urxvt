@@ -8,7 +8,6 @@ fi
 # start urxvt daemon
 if ! [[ $(pidof urxvtd) ]]; then
     urxvtd &
-    sleep 1
 fi
 
 # open urxvt client
