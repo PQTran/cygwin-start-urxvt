@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# start with: C:\cygwin64\bin\mintty.exe '/cygdrive/c/Users/I863517/cygwin-start-urxvt/main.sh'
+# issues occur when starting with bash.exe, process ownership related
+
 function start_xwin_session {
     # start xwin server
     xwin_session="session_xwin_server"
